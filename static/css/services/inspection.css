@@ -1,0 +1,18 @@
+.description{
+    display: flex;
+}
+.desc{
+    text-align: justify;
+}
+.sub-heading{
+    color: rgb(254 185 0);
+}
+@media  screen and (max-width: 768px){
+    .description{
+        flex-direction: column !important;
+        
+    }
+    .desc{
+        margin-top: 1rem;
+    }
+}

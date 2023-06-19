@@ -1,0 +1,176 @@
+.elementor-7760 .elementor-element.elementor-element-788c6cb {
+    padding: 60px 0px 0px 0px;
+}
+
+.elementor-7760 .elementor-element.elementor-element-69a2a9b>.elementor-widget-container {
+    padding: 15px 20px 15px 20px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #DDDDDD;
+    border-radius: 10px 10px 10px 10px;
+}
+.elementor-7760 .elementor-element.elementor-element-1bd0ed6 {
+    line-height: 30px;
+}
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 10px;
+}
+.titlebg-color h2.elementor-heading-title {
+    background: #8987a1;
+    background: -webkit-linear-gradient(to right, #a4a4ab 10%, #1C75BC 90%);
+    background: -moz-linear-gradient(to right, #2a1fc2 10%, #aec3d3 90%);
+    background: linear-gradient(to right, #ededed 10%, #b4c0ca 90%);
+}
+
+
+.elementor-widget-wrap>.elementor-element {
+    width: 100%;
+}
+
+.elementor-7760 .elementor-element.elementor-element-69a2a9b>.elementor-widget-container {
+    padding: 15px 20px 15px 20px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #DDDDDD;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.elementor-element {
+    --flex-direction: initial;
+    --flex-wrap: initial;
+    --justify-content: initial;
+    --align-items: initial;
+    --align-content: initial;
+    --gap: initial;
+    --order: initial;
+    --align-self: initial;
+}
+
+.elementor-icon-box-icon.icon-box-mars-inner img {
+    width: 70px !important;
+}
+
+.elementor *,
+.elementor :after,
+.elementor :before {
+    box-sizing: border-box;
+}
+
+.elementor-widget-image img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.elementor img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.elementor-widget .elementor-text-editor p:last-child {
+    margin-bottom: 0;
+}
+
+.elementor-clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    width: 0;
+    height: 0;
+}
+
+.elementor-column,
+.elementor-column-wrap {
+    position: relative;
+    display: flex;
+}
+
+.elementor-widget-wrap {
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.elementor-section.elementor-section-stretched {
+    position: relative;
+    width: 100%;
+}
+
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap {
+    display: flex;
+}
+.elementor-7760 .elementor-element.elementor-element-d05b578 .elementor-heading-title {
+    font-size: 45px;
+    padding: 0px 0px 30px 0px;
+}
+
+.elementor-7760 .elementor-element.elementor-element-69a2a9b .elementor-icon-box-content .elementor-icon-box-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.elementor-widget-icon-box .elementor-icon-box-title {
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+/* phto wala section start */
+.elementor-7760 .elementor-element.elementor-element-7187a5b {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 60px 0px 0px 0px;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1290px;
+}
+
+.elementor-section .elementor-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: justify;
+    width: 34rem;
+    margin-right: 15rem;
+}
+
+.elementor-widget-heading .elementor-heading-title {
+    position: relative;
+    z-index: 1;
+    line-height: 1.2;
+}
+
+.elementor-position-above .sub-title {
+    margin-bottom: 1rem;
+    order: -1;
+}
+
+.elementor-widget-heading .sub-title {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .16em;
+    font-size: 14px;
+    font-size: .875rem;
+}
+
+.elementor-widget-heading .elementor-heading-wrapper-inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}

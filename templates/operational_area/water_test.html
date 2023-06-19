@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+    .main-div{
+        margin: 4% 16%;
+    }
+    .main-div h3{
+        margin: 30px 0 !important;
+    }
+    .bm-p1, .bm-p2{
+        text-align: justify;
+        font-weight: 400;
+        font-size: 15px;
+        color: #52565e;
+    }
+    .bm-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-basis: 23%;
+    }
+    .bm-images img{
+        width: 28%;
+        height: 350px;
+        margin-bottom: 10px;
+    }
+
+    .building-material{
+        text-align: center;
+    } 
+    .building-material img{
+        width: 80%;
+    }
+</style>
+ <!-- ======= Breadcrumbs ======= -->
+ <div class="breadcrumbs d-flex align-items-center" style="background-image: url('/static/img/breadcrumbs-bg.jpg');">
+    <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+        <marquee style="color: white; margin-bottom: 30px;">SRS INDIA PRIVATE LIMITED IS NABL ACCREDITED LABORATORY.
+        </marquee>
+    </div>
+  </div><!-- End Breadcrumbs -->
+  <div class="main-div">
+  <div class="building-material">
+    <h2 style="text-align: center; text-decoration:underline">Water Test</h2>
+    <img src="/static/img/operational area/watertest.jpg" alt="">
+  </div>
+  <div class="content-img">
+    <h3 style="text-align: center;">Types of Water Testing & How to Test Water</h3>
+    <p class="bm-p1">Do you know that the water which we use for different purposes be it domestic, agriculture, business or the glass of water that you might be sipping while going through these lines could be of inappropriate quality? <br>
+        According to the World Bank Report of 2019, the deteriorating quality of water worldwide is slashing the economic potential of heavily polluted areas. It also warns the invisible crisis of water quality is threatening human and environmental wellbeing. <br>
+        Albert Szent Gyorgyi a Hungarian biochemist who won the Nobel Peace Prize in Physiology or Medicine has said, “Water is life’s matrix, mother and medium. There is no life without water”. Water is crucial for all the activities. However, it is a matter of concern that the quality of water is deteriorating due to a plethora of factors.</p>
+  </div>
+</div>
+  
+{% include 'footer.html' %}
+{% endblock %}

@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+    .main-div{
+        margin: 4% 16%;
+    }
+    .main-div h3{
+        margin: 30px 0 !important;
+    }
+    .bm-p1, .bm-p2{
+        text-align: justify;
+        font-weight: 400;
+        font-size: 15px;
+        color: #52565e;
+    }
+    .bm-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-basis: 23%;
+    }
+    .bm-images img{
+        width: 28%;
+        height: 350px;
+        margin-bottom: 10px;
+    }
+
+    .building-material{
+        text-align: center;
+    } 
+    .building-material img{
+        width: 80%;
+    }
+</style>
+ <!-- ======= Breadcrumbs ======= -->
+ <div class="breadcrumbs d-flex align-items-center" style="background-image: url('/static/img/breadcrumbs-bg.jpg');">
+    <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+        <marquee style="color: white; margin-bottom: 30px;">SRS INDIA PRIVATE LIMITED IS NABL ACCREDITED LABORATORY.
+        </marquee>
+    </div>
+  </div><!-- End Breadcrumbs -->
+  <div class="main-div">
+  <div class="building-material">
+    <h2 style="text-align: center; text-decoration:underline">Food Test</h2>
+    <h3 style="text-align: center;">Why Food Testing....</h3>
+    <img src="/static/img/operational area/foodtesting.jpg" alt="">
+  </div>
+  <div class="content-img" style="margin-top: 20px;">
+    
+    <p class="bm-p1">Food testing and analysis is an essential part of the food safety ecosystem to assure that the food is safe to consume. This includes strengthening the network of food testing laboratories, assuring quality of food testing, investing in human resources, carrying out surveillance activities and educating consumers. <br> <br>
+        FSSAI has developed an IT solution for Indian food laboratory network called InFoLNet. This laboratory management system (LMS) is a centralized system that connects and collates the network of laboratories. The information on the InFoLNet would help categorize laboratories on a fit for purpose basis i.e., for regulatory requirements, routine testing, appellate testing etc. This LMS will also be a one stop portal for food laboratory information, ranging from ownership details, infrastructure availability, technical capacity, scope of testing through to test results of different samples. Apart from being the back bone of the network, this LMS will also be integrated to other FSSAI core IT systems, such as FLRS (Licensing and Registration), FICS (Import Clearance), Quick access, FoSTAC, etc. The centralized information will also have profound applications in deciphering risk analysis, enriching standards, capacity building and training.</p>
+  </div>
+</div>
+  
+{% include 'footer.html' %}
+{% endblock %}

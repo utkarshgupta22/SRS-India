@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+    .main-div{
+        margin: 4% 16%;
+    }
+    .main-div h3{
+        margin: 30px 0 !important;
+    }
+    .bm-p1, .bm-p2{
+        text-align: justify;
+        font-weight: 400;
+        font-size: 15px;
+        color: #52565e;
+    }
+    .bm-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-basis: 23%;
+    }
+    .bm-images img{
+        width: 28%;
+        height: 350px;
+        margin-bottom: 10px;
+    }
+
+    .building-material{
+        text-align: center;
+    } 
+    .building-material img{
+        width: 80%;
+    }
+</style>
+ <!-- ======= Breadcrumbs ======= -->
+ <div class="breadcrumbs d-flex align-items-center" style="background-image: url('/static/img/breadcrumbs-bg.jpg');">
+    <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+        <marquee style="color: white; margin-bottom: 30px;">SRS INDIA PRIVATE LIMITED IS NABL ACCREDITED LABORATORY.
+        </marquee>
+    </div>
+  </div><!-- End Breadcrumbs -->
+  <div class="main-div">
+  <div class="building-material">
+    <h2 style="text-align: center; text-decoration:underline">Geo-Tech Material</h2>
+    
+  </div>
+  <div class="content-img">
+    <h3 style="text-align: center;">Construction QA/QC Monitoring Inspection Services</h3>
+    <p class="bm-p1">Our geotechnical engineers and material specialists are focused on solving design, construction, and rehabilitation issues impacting the communities where we work and live. By pairing cutting-edge site investigation technology with tried-and-true experience, we bring unparalleled expertise to the entire geotechnical spectrum—from planning, investigation, and design to execution and quality control. Our services include</p>
+    <p class="bm-p2">Quality is part of our foundation. Our construction Quality Assurance (QA)/Quality Control (QC) monitoring and inspection services help put project owners at ease. We provide independent verification of construction materials, methods, and results for conformance to the design using standardized test methods and procedures. We maintain and run in-house advanced materials laboratories to perform acceptance testing of soil, aggregate, concrete, and asphalt materials. By using a systematic and standardized approach to measuring quality, you can be confident your material meets design intent as well as quality specifications.</p>
+  </div>
+  
+    <div class="bm-images">
+        <img src="/static/img/operational area/gt1.jpeg" alt="">
+        <img src="/static/img/operational area/gt2.jpeg" alt="">
+        <img src="/static/img/operational area/gt3.jpeg" alt="">
+        <img src="/static/img/operational area/gt4.jpeg" alt="">
+        <img src="/static/img/operational area/gt5.jpeg" alt="">
+        <img src="/static/img/operational area/gt6.jpeg" alt="">
+    </div>
+</div>
+  
+{% include 'footer.html' %}
+{% endblock %}

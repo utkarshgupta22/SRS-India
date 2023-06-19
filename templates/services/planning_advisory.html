@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+        .upSection{
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 80px;
+        }
+        .text{
+                width: 50%;
+        }
+
+        .topP, h2{
+                margin-bottom: 25px;
+        }
+        .text_p{
+                text-align: justify;
+        }
+
+        .image img{
+                border-radius: 10px;
+                height: 90%;
+        }
+
+        .downSection{
+                display: flex;
+                justify-content: space-evenly;
+                width: 80%;
+                margin: auto;
+                flex-wrap: wrap;
+                margin-top: 30px;
+                margin-bottom: 40px;
+        }
+
+        .box{
+                display: flex;
+                justify-content: space-evenly;
+                width: 30%;
+                border: 0.5px solid #DDDD ;
+                margin: 20px 20px;
+                padding: 15px 20px;
+                border-radius: 10px;
+        }
+
+        .box h5{
+                margin-left: 15px;
+                
+        }
+
+        @media(max-width:1083px){
+                .downSection{
+                        align-items: center;
+                        flex-direction: column;
+                        width: 100%;
+                }
+
+                .box{
+                        width:40% ;
+                }
+        }
+        @media(max-width:999px){
+                .upSection{
+                        flex-direction: column;
+                        align-items: center;
+                        width: 90%;
+                        margin: auto;
+                        margin-top: 60px;
+                }
+
+                .box{
+                        width:40% ;
+                }
+                .text{
+                        width: 85%;
+                        text-align: center;
+                }
+        }
+        
+        @media(max-width:638px){
+                .box{
+                        width: 60%;
+                }
+                .image{
+                        text-align: center;
+                }
+                .image img{
+                        width: 80%;    
+                }
+
+                .text h2{
+                        width: 100% !important;
+                }
+        }
+
+        @media(max-width:424px){
+                .box{
+                        width: 75%;
+                }
+        }
+</style>
+<!-- ======= Breadcrumbs ======= -->
+<div class="breadcrumbs d-flex align-items-center" style="background-image: url('/static/img/breadcrumbs-bg.jpg');">
+        <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+            <marquee style="color: white; margin-bottom: 30px;">SRS INDIA PRIVATE LIMITED IS NABL ACCREDITED LABORATORY.
+            </marquee>
+        </div>
+      </div><!-- End Breadcrumbs -->
+
+      <div class="upSection">
+        <div class="text">
+                <h6 class="topP">PLANNING & ADVISORY</h6>
+                <h2 style="width: 90%;">Providing Solution for Development Problems</h2>
+                <p class="text_p">Urban and Regional development requires a new and innovative approach to address the challenges of the fast-growing economy. MaRS provides agile planning solutions for cities and their physical and social infrastructure while keeping the utmost regard for the environment. Our skilled planners use the most up-to-date technology and tools to produce plans and documentation that are both timely and thorough, as well as worthy of present and future stakeholders.</p>
+        </div>
+        <div class="image">
+                <img src="https://www.marsconsultancy.com/wp-content/uploads/2022/03/planning-advisory.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="downSection">
+        <div class="box">
+                <img style="width: 15%;" src="https://www.marsconsultancy.com/wp-content/uploads/2022/03/Development-of-Master-Plan.svg" alt="">
+                <h5>Development of Master Plan</h5>
+        </div>
+
+        <div class="box">
+                <img style="width: 15%;" src="https://www.marsconsultancy.com/wp-content/uploads/2022/03/City-Development-Plan-reparation.svg" alt="">
+                <h5>
+                        City Development Plan Preparation
+                </h5>
+        </div>
+
+        <div class="box">
+                <img style="width: 15%;" src="https://www.marsconsultancy.com/wp-content/uploads/2022/03/Town-Planning-Schemes.svg" alt="">
+                <h5>Town Planning Schemes</h5>
+        </div>
+
+        <div class="box">
+                <img style="width: 15%;" src="https://www.marsconsultancy.com/wp-content/uploads/2022/03/Infrastructure-Plans.svg" alt="">
+                <h5>Infrastructure Plans</h5>
+        </div>
+      </div>
+
+{% include 'footer.html' %}
+{% endblock %}

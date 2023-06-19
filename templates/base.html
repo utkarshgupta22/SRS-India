@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      
+        <title>SRS India Private Limited</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+      
+        <!-- Favicons -->
+        <link href="/static/img/favicon.png" rel="icon">
+        <link href="/static/img/apple-touch-icon.png" rel="apple-touch-icon">
+      
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+      
+        <!-- Vendor CSS Files -->
+        <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="/static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+        <link href="/static/vendor/aos/aos.css" rel="stylesheet">
+        <link href="/static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="/static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+      
+        <!-- Template Main CSS File -->
+        <link href="/static/css/main.css" rel="stylesheet">
+      
+      </head>
+<body>
+  <div id="main">
+     <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="/static/img/logo.png" alt=""> -->
+        <h1>SRS India Pvt. Ltd.</h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="{% url 'index' %}" class="active">Home</a></li>
+          <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="{% url 'company_profile' %}">Company Profile</a></li>
+              <li><a href="{% url 'managing_director' %}">Managing Director Desk</a></li>
+              <li><a href="{% url 'management_credentials' %}">Management Credentials</a></li>
+              <li><a href="{% url 'man_power' %}">Man Power</a></li>
+              <li><a href="#">Public Documents</a></li>
+              <li><a href="#">Impartiality Policy</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="{% url 'testing' %}">Testing</a></li>
+              <li><a href="{% url 'inspection' %}">Inspection</a></li>
+              <li><a href="{% url 'planning_advisory' %}">Planning & advisory</a></li>
+              <li><a href="{% url 'engineering_design' %}">Engineering Designs</a></li>
+              <li><a href="{% url 'project_management' %}">Project Management</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Operational Area</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="{% url 'building_material_test' %}">Building Material Test</a></li>
+              <li><a href="{% url 'geo_tech_investigation' %}">Geo-tech Investigation</a></li>
+              <li><a href="{% url 'chemical_test' %}">Chemical Test</a></li>
+              <li><a href="{% url 'mechanical_test' %}">Mechanical Test</a></li>
+              <li><a href="{% url 'water_test' %}">Water Test</a></li>
+              <li><a href="{% url 'food_test' %}">Food Test</a></li>
+              <li><a href="{% url 'electrical_test' %}">Electical Test</a></li>
+              <li><a href="{% url 'ndt_test' %}">NDT Test</a></li>
+              <li><a href="{% url 'environment_test' %}">Environmental Test</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Accreditation/Approval</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="accreditation">Accreditation</a></li>
+              <li><a href="approval">Approval</a></li>
+            </ul>
+          </li>
+          <li><a href="{% url 'carrers' %}">Careers</a></li>
+          <li><a href="{% url 'contact' %}">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+    {% block content %}
+
+    {% endblock %}
+  </div>
+      <!-- Vendor JS Files -->
+  <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/vendor/aos/aos.js"></script>
+  <script src="/static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/static/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/static/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/static/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/static/js/main.js"></script>
+</body>
+
+</html>

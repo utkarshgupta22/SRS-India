@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+    .main-div{
+        margin: 4% 16%;
+    }
+    .main-div h3{
+        margin: 30px 0 !important;
+    }
+    .bm-p1, .bm-p2{
+        text-align: justify;
+        font-weight: 400;
+        font-size: 15px;
+        color: #52565e;
+    }
+    .bm-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-basis: 23%;
+    }
+    .bm-images img{
+        width: 28%;
+        height: 350px;
+        margin-bottom: 10px;
+    }
+
+    .building-material{
+        text-align: center;
+    } 
+    .building-material img{
+        width: 80%;
+    }
+</style>
+ <!-- ======= Breadcrumbs ======= -->
+ <div class="breadcrumbs d-flex align-items-center" style="background-image: url('/static/img/breadcrumbs-bg.jpg');">
+    <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+        <marquee style="color: white; margin-bottom: 30px;">SRS INDIA PRIVATE LIMITED IS NABL ACCREDITED LABORATORY.
+        </marquee>
+    </div>
+  </div><!-- End Breadcrumbs -->
+  <div class="main-div">
+    <div class="building-material">
+        <h2 style="text-align: center; text-decoration:underline">Building Material</h2>
+        <h3 style="margin: 20px 0px;">What is Environmental Testing?</h3>
+        <img src="/static/img/operational area/envtest.jpg" alt="">
+      </div>
+  <div class="content-img" style="margin-top: 20px;">
+    <p>Environmental testing simulates the different climatic conditions and mechanical stress that products are exposed to during their lifetime. Environmental testing will expose weaknesses in a product’s design or performance that could occur in service, particularly at extreme levels.</p>
+
+    <h3>WHY IS ENVIRONMENTAL TESTING IMPORTANT?</h3>
+    <p class="bm-p1">In general, environmental tests demonstrate that your products have the build quality to work perfectly, no matter what the conditions. During testing, possible weaknesses can be identified and product improvements can be initiated at an early stage.
+        Environmental testing also helps demonstrate compliance of your products with international regulations, making it easier to access global markets. Environmental testing also boosts trust in your products.</p>
+
+        <h3>WHAT KIND OF ENVIRONMENTAL TESTING CAN TÜV SÜD PERFORM?</h3>
+    
+    <p class="bm-p1">Non Destructive Testing (NDT) has been traditionally used for Flaw characterization and measurement of Residual Stress. Any Engineering component, when put in service, is designed to last for definite period referred to as Design Life of the component. There are many factors, which adversely affect the design life and lead to premature retirement of the component from service. Such Factors include unanticipated stresses (residual service), operation outside designed limits (excessive temperature, load cycling), environmental effects, degradation of material properties in service etc. <br> <br>
+        On the other hand there can be some favorable factors, which result in lesser degradation of the components than expected in its design life. Such factors include use of minimum value of Mechanical properties in design, factor of safety in design, conservative operation of unit, inaccuracy in data extrapolation, overestimation of corrosion effects etc. <br> <br> Here lies the importance of Residual Life Assessment (RLA) and Plant life Extension (PLEX) since constructing a new plant is always much more expensive than extending the life of the Existing plants. In this regard, non-destructive evaluation provides all the vital inputs necessary for assessment of structural integrity. The NDT study is of National importance since many operating powers, chemical and petrochemical plants are approaching their end of design life. <br> <br> NDT is the field of civil engineering where structure constructed evaluated without damaging it. Quality of civil-engineering structure depends on good construction practices & further continuous repair and maintenance preserve the construction quality. Our experts to evaluated civil structure on site conducted the various NDT tests and few tests were conducted at our laboratory.</p> 
+        <p><strong>Major Tests Include:</strong></p>
+        <ul>
+            <li>Core Cutting</li>
+            <li>Depth of Carbonation</li>
+            <li>In Situ Metallographic</li>
+            <li>Concrete Hammer test</li>
+            <li>Concrete Ultrasonic pulse velocity</li>
+            <li>Concrete</li>
+            <li>Ultrasonic Inspection</li>
+            <li>Oxide thickness measurement</li>
+            <li>Dye penetration</li>
+            <li>Weld ability</li>
+            <li>Coating Thickness</li>
+            <li>Plate Load Test</li>
+            <li>Pile Load Test</li>
+        </ul>
+
+        <p><strong>Requirement for NDT</strong></p>
+        <ul>
+            <li>Steel Yard such as TISCO, SAIL etc.</li>
+            <li>Forging Plants for Inspection of Dies, forging etc.</li>
+            <li>Steel Plants for Testing of Blooms</li>
+            <li>Existing installations like Sugar Plants, Thermal Power Plants, Distillery Plants, Petrochemical Plants, Refineries, Chemical Plants, Oil Reservoirs etc.</li>
+        </ul>
+        
+        <p><strong>Protocols Followed</strong></p>
+        <ul>
+            <li>Indian Standards Specifications (IS)</li>
+            <li>British Standards Specifications (BSS)</li>
+            <li>American Standards (ASTM)</li>
+            <li>International Standards (ISO)</li>
+            <li>Standard Books for Chemical Analysis</li>
+        </ul>
+  </div>
+</div>
+  
+{% include 'footer.html' %}
+{% endblock %}

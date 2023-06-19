@@ -1,0 +1,131 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<link href="/static/css/services/inspection.css" rel="stylesheet">
+
+<!-- ======= Breadcrumbs ======= -->
+<div class="breadcrumbs d-flex align-items-center" style="background-image: url('/static/img/breadcrumbs-bg.jpg');">
+    <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+        <marquee style="color: white; margin-bottom: 30px;">SRS INDIA PRIVATE LIMITED IS NABL ACCREDITED LABORATORY.
+        </marquee>
+        <h2>Services</h2>
+        <ol>
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li>Services</li>
+            <li><a href="{% url 'inspection' %}">Inspection</a></li>
+        </ol>
+
+    </div>
+</div>
+<!-- End Breadcrumbs -->
+
+<div class="container my-3">
+    <div class="inspection">
+        <h1 class="text-center my-5">
+            <ul> Inspection </ul>
+        </h1>
+        <p>
+            SRS India inspection Services, from its office in Ranchi, provides inspection and quality assurance services to
+            help retailers, trading partners, importers and manufacturers assess product quality and meet the regulatory
+            requirements of their industry.
+        </p>
+    </div>
+    <div class="inspection-description">
+        <h4>Our inspection services include:</h4>
+        <div class="inspection-content">
+            <h5 class="sub-heading mx-3">Factory Audit</h5>
+            <div class="description">
+                <img class="mx-3" src="/static/img/testing/inspection1.jpg" alt="">
+                <p class="mx-3 desc">
+                    SRS provides Factory Audit service verifies the capability of a manufacturer to meet contract
+                    conditions
+                    for quality, quantity and delivery terms. Such assessments are often tailor-made as per a client's
+                    needs
+                    and requirements. By availing of this service, we eliminate the need for a client to be present
+                    on-site
+                    at the manufacturer's plant or factory.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="inspection-content">
+            <h5 class="sub-heading mx-3">Picking of Samples and Testing Coordination</h5>
+            <div class="description">
+                <img class="mx-3" src="/static/img/testing/inspection2.jpg" alt="">
+                <p class="mx-3 desc">
+                    Our inspectors can select a pre-determined number of samples from production at a factory and seal
+                    them, label & send them to our material-testing laboratory for testing according to customer
+                    requirements. At the SRS India have Services material testing laboratory, we provide Mechanical Testing,
+                    Chemical Analysis, Positive Material Identification (PMI), Non-Destructive Testing, Metallography,
+                    Corrosion Testing, Failure Analysis, Raw Material Inspection, Metallurgical Product evaluation, and
+                    Consulting.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="inspection-content">
+            <h5 class="sub-heading mx-3">Initial Production Check</h5>
+            <div class="description">
+                <img class="mx-3" src="/static/img/testing/inspection3.jpg" alt="">
+                <p class="mx-3 desc">
+                    The inspection team from SRS Research and testing laboratory can perform a visual inspection of
+                    products as available at the beginning of the production cycle against a client's instructions and
+                    Purchase Order specifications. The "Initial Production Check" when combined with a "Final Random
+                    Inspection" and any other online production checks, helps in taking corrective actions at an early
+                    stage of the production cycle. The inspection team will send out intermediary reports to the client
+                    and keep them informed about the production progress relative to the delivery terms.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="inspection-content">
+            <h5 class="sub-heading mx-3">In-Production Check</h5>
+            <div class="description">
+                <img class="mx-3" src="/static/img/testing/inspection4.jpg" alt="">
+                <p class="mx-3 desc">
+                    The inspection team performs a visual inspection of products as available during production. The
+                    inspection team may subject some products for random material testing. The in-production check
+                    service helps in reducing the final random inspection failure risk.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="inspection-content">
+            <h5 class="sub-heading mx-3"> 
+                Random Inspection</h5>
+            <div class="description">
+                <img class="mx-3" src="/static/img/testing/inspection5.jpg" alt="">
+                <p class="mx-3 desc">
+                    The SRS Private Limited inspection services team performs a final random inspection
+                    comprising of a detailed visual inspection of goods before shipment. It is generally conducted on
+                    the premises of the manufacturer, on samples selected according to defined sampling procedures. The
+                    inspection criteria covering quality, quantity, marking and packing are based on the client's
+                    specifications and reference samples, as provided. Upon completion of the final random inspection, a
+                    detailed inspection report is sent to the client and the inspection certificate issued to the
+                    supplier if all findings are positive.
+                </p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="inspection-content">
+            <h5 class="sub-heading mx-3">Loading Supervision</h5>
+            <div class="description">
+                <img class="mx-3" src="/static/img/testing/inspection6.jpg" alt="">
+                <p class="mx-3 desc">
+                    To further manage the product delivery, the SRS Research and testing laboratory inspection team
+                    offers Loading Supervision which involves, "as appropriate," the checking of the container
+                    condition, identification of the loaded packing units with the previously inspected consignment,
+                    tallying of the total number of shipping packing units and sealing of the container. Loading
+                    Supervision service is offered in combination with the Final Random Inspection.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include 'footer.html' %}
+
+{% endblock %}

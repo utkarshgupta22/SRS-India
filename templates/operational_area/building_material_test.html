@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+    .main-div{
+        margin: 4% 16%;
+    }
+    .main-div h3{
+        margin: 30px 0 !important;
+    }
+    .bm-p1, .bm-p2{
+        text-align: justify;
+        font-weight: 400;
+        font-size: 15px;
+        color: #52565e;
+    }
+    .bm-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-basis: 23%;
+    }
+    .bm-images img{
+        width: 28%;
+        height: 350px;
+        margin-bottom: 10px;
+    }
+
+    .building-material{
+        text-align: center;
+    } 
+    .building-material img{
+        width: 80%;
+    }
+</style>
+ <!-- ======= Breadcrumbs ======= -->
+ <div class="breadcrumbs d-flex align-items-center" style="background-image: url('/static/img/breadcrumbs-bg.jpg');">
+    <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+        <marquee style="color: white; margin-bottom: 30px;">SRS INDIA PRIVATE LIMITED IS NABL ACCREDITED LABORATORY.
+        </marquee>
+    </div>
+  </div><!-- End Breadcrumbs -->
+  <div class="main-div">
+  <div class="building-material">
+    <h2 style="text-align: center; text-decoration:underline">Building Material</h2>
+    <img src="/static/img/operational area/bm1.jpeg" alt="">
+  </div>
+  <div class="content-img">
+    <h3>WHAT IS CONSTRUCTION MATERIALS TESTING?</h3>
+    <p class="bm-p1">Construction materials testing involves the essential examination of all structural materials used in the construction of a project. Industry players need to ensure that their products can withstand certain conditions and comply with increasingly complex national and international building standards and regulations. If they are unable to do so, building projects may be delayed and quality may be compromised, resulting in increased liability risks and shortened lifespan of their assets.</p>
+  </div>
+  <h3>HOW THIRD-PARTY CONSTRUCTION MATERIALS TESTING COMPANIES CAN BENEFIT YOUR BUSINESS</h3>
+  <p class="bm-p2">Manufacturers of materials and semi-finished products are liable for the quality and performance of their goods over the short and long term. Product testing and certification assures manufacturers, property owners and developers that the construction materials used in their projects can meet these quality, safety and environmental sustainability requirements. Construction materials testing can therefore benefit your business in the following ways <br>
+    Protect your brand image - with product testing and certification that reduces the probability of costly and image-damaging product recalls. <br>
+       __Accelerate time to market - by meeting internationally recognised regulatory requirements and standards. <br>
+       __Minimise your risk - of regulatory non-compliance and legal liabilities with our independent and impartial testing services. <br>
+      __Gain a competitive edge - with independent third-party certification that improves product quality and safety, and boosts buyer confidence in your products and brand. <br>
+      __Receive global support - from our experts who are available in all key markets around the world and are familiar with local requirements.</p>
+    <div class="bm-images">
+        <img src="/static/img/operational area/bm2.jpeg" alt="">
+        <img src="/static/img/operational area/bm3.jpeg" alt="">
+        <img src="/static/img/operational area/bm4.jpeg" alt="">
+        <img src="/static/img/operational area/bm5.jpeg" alt="">
+        <img src="/static/img/operational area/bm6.jpeg" alt="">
+        <img src="" alt="" style="height: 0px !important; ">
+    </div>
+</div>
+  
+{% include 'footer.html' %}
+{% endblock %}

@@ -1,0 +1,167 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+        .upSection{
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 80px;
+        }
+        .text{
+                width: 50%;
+        }
+
+        .topP, h2{
+                margin-bottom: 25px;
+        }
+        .text_p{
+                text-align: justify;
+        }
+
+        .image img{
+                border-radius: 10px;
+                height: 90%;
+        }
+
+        .downSection{
+                display: flex;
+                justify-content: space-evenly;
+                width: 80%;
+                margin: auto;
+                flex-wrap: wrap;
+                margin-top: 30px;
+                margin-bottom: 40px;
+        }
+
+        .box{
+                display: flex;
+                justify-content: space-evenly;
+                width: 30%;
+                border: 0.5px solid #DDDD ;
+                margin: 20px 20px;
+                padding: 15px 20px;
+                border-radius: 10px;
+        }
+
+        .box h5{
+                margin-left: 15px;
+                
+        }
+
+        @media(max-width:1083px){
+                .downSection{
+                        align-items: center;
+                        flex-direction: column;
+                        width: 100%;
+                }
+
+                .box{
+                        width:40% ;
+                }
+        }
+        @media(max-width:999px){
+                .upSection{
+                        flex-direction: column;
+                        align-items: center;
+                        width: 90%;
+                        margin: auto;
+                        margin-top: 60px;
+                }
+
+                .box{
+                        width:40% ;
+                }
+                .text{
+                        width: 85%;
+                        text-align: center;
+                }
+        }
+        
+        @media(max-width:638px){
+                .box{
+                        width: 60%;
+                }
+                .image{
+                        text-align: center;
+                }
+                .image img{
+                        width: 80%;    
+                }
+
+                .text h2{
+                        width: 100% !important;
+                }
+        }
+
+        @media(max-width:424px){
+                .box{
+                        width: 75%;
+                }
+        }
+</style>
+<!-- ======= Breadcrumbs ======= -->
+<div class="breadcrumbs d-flex align-items-center" style="background-image: url('/static/img/breadcrumbs-bg.jpg');">
+        <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+            <marquee style="color: white; margin-bottom: 30px;">SRS INDIA PRIVATE LIMITED IS NABL ACCREDITED LABORATORY.
+            </marquee>
+        </div>
+      </div><!-- End Breadcrumbs -->
+
+      <div class="upSection">
+        <div class="text">
+                <h6 class="topP">ENGINEERING DESIGNS</h6>
+                <h2 style="width: 90%;">Technology Driven Design Solutions</h2>
+                <p class="text_p">With over 20 years of organizational experience and having Core Design Leaders with 30+ years of experience in designing infrastructure projects supported by a Design Team of Engineers having design experience ranging from 5 to 25 years, MaRS leads the market in engineering design of a wide range of infrastructure projects. All leaders and designers are well equipped with the latest design software and tools for executing designs in the shortest period. MaRS offers the design solutions for complex problems complying with relevant codal provisions duly considering local factors in an environmentally sensitive way. Our optimized designs minimize the life cycle costs and maximize the value for Government Authorities as well as Contracting Agencies.</p>
+        </div>
+        <div class="image">
+                <img src="https://www.marsconsultancy.com/wp-content/uploads/2022/03/engineering-designs.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="downSection">
+
+        <div class="box">
+                <img style="width: 15%;" src="https://www.marsconsultancy.com/wp-content/uploads/2022/03/Pre-bid-Engineering.svg" alt="">
+                <h5>
+                        
+Pre-bid Engineering
+                </h5>
+        </div>
+
+        <div class="box">
+                <img style="width: 15%;" src="https://www.marsconsultancy.com/wp-content/uploads/2022/03/Preliminary-Engineering.svg" alt="">
+                <h5>Preliminary Engineering</h5>
+        </div>
+
+        <div class="box">
+                <img style="width: 15%;" src="https://www.marsconsultancy.com/wp-content/uploads/2022/03/Conceptual-Planning.svg" alt="">
+                <h5>Conceptual Planning</h5>
+        </div>
+        <div class="box">
+            <img style="width: 15%;" src="https://www.marsconsultancy.com/wp-content/uploads/2022/03/Detailed-Engineering-.svg" alt="">
+            <h5>Detailed Engineering Designs</h5>
+    </div>
+    <div class="box">
+        <img style="width: 15%;" src="https://www.marsconsultancy.com/wp-content/uploads/2022/03/Pre-feasibility-.svg" alt="">
+        <h5>
+            Pre-feasibility Studies</h5>
+</div>
+<div class="box">
+    <img style="width: 15%;" src="https://www.marsconsultancy.com/wp-content/uploads/2022/03/Preparation-of-Bid-Documents.svg" alt="">
+    <h5>Preparation of Bid Documents</h5>
+</div>
+<div class="box">
+    <img style="width: 15%;" src="https://www.marsconsultancy.com/wp-content/uploads/2022/03/Feasibility-Studies.svg" alt="">
+    <h5>Feasibility Studies</h5>
+</div>
+<div class="box" style="visibility: hidden">
+    <img style="width: 15%;" src="https://www.marsconsultancy.com/wp-content/uploads/2022/03/Feasibility-Studies.svg" alt="">
+    <h5>Feasibility Studies</h5>
+</div>
+
+
+      </div>
+
+{% include 'footer.html' %}
+{% endblock %}

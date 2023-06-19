@@ -1,0 +1,163 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<style>
+    .imgfix{
+        height: 3rem!important;
+        width: auto;
+    }
+    tr:nth-child(even){
+        background-color: rgb(223, 220, 214);
+    }
+</style>
+<!-- ======= Breadcrumbs ======= -->
+<div class="breadcrumbs d-flex align-items-center" style="background-image: url('/static/img/breadcrumbs-bg.jpg');">
+    <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+
+      <h2>Services</h2>
+      <ol>
+        <li><a href="{% url 'index' %}">Home</a></li>
+        <li>Accreditation/Approval</li>
+        <li><a href="{% url 'approval' %}">Approval</a></li>
+      </ol>
+
+    </div>
+  </div>
+  <!-- End Breadcrumbs -->
+
+<div class="container my-3">
+    <h1 class="text-center my-5">
+        <ul> Approvals </ul>
+    </h1>
+    <hr>
+    <table style="width: 100%;">
+        <tr>
+            <th style="width: 15%;">SL NO.</th>
+            <th style="width: 70%;">Department</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Road Construction Department</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap1.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Road Construction Department</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap1.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>	Juidco</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap3.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>RVNL</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap4.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Drinking Water & Sanitation Department Jharkhand,West Bengal</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap5.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>	Municipal Corporation Hazaribagh</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap1.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Municipal Corporation Ranchi</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap7.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Municipal Corporation Garhwa</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap1.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>PWD</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap9.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>CPWD</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap10.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Urban Development bodies</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap11.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Irrigation Department Jharkhand</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap1.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>JUSNL</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap13.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Police Housing</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap14.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>World Bank</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap15.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>PHED Bihar</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap16.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>JSBCCL(Jharkhand State Building Construction Corporation Limited.).</td>
+            <td>
+                <img class="imgfix" src="/static/img/approvals/ap1.png" alt="">
+            </td>
+        </tr>
+
+    </table>
+</div>
+{% include 'footer.html' %}
+{% endblock %}
